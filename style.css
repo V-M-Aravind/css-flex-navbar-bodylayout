@@ -22,6 +22,8 @@ body {
 .nav-container h3 {
   width: 40%;
   padding-top: 1rem;
+  text-align: left;
+  padding-left: 1rem;
 }
 .nav-container-list {
   display: flex;
