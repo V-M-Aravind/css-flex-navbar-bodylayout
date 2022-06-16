@@ -4,6 +4,11 @@
 }
 body {
   background-color: rgb(248, 239, 239);
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 .nav-container {
   background-color: rgb(29, 25, 25);
@@ -31,6 +36,29 @@ body {
 .nav-container-list > li:hover {
   background-color: rgb(59, 61, 63);
 }
+.main-content {
+  display: flex;
+  flex: 1;
+}
+.aside-left {
+  background-color: red;
+  padding: 1rem;
+  flex: 1;
+}
+.aside-right {
+  background-color: red;
+  padding: 1rem;
+  flex: 1;
+}
+.main-content-section {
+  background-color: green;
+  padding: 1rem;
+  flex: 4;
+}
+.footer {
+  background-color: yellow;
+  padding: 1rem;
+}
 @media (max-width: 780px) {
   .nav-container {
     flex-direction: column;
@@ -52,6 +80,8 @@ body {
   }
   .nav-container-list > li {
     width: 100%;
-    text-align: center;
+  }
+  .main-content {
+    flex-direction: column;
   }
 }
