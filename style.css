@@ -15,12 +15,9 @@ body {
   color: white;
   font-size: 2rem;
   display: flex;
-  height: auto;
-  width: 100%;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .nav-container h3 {
-  width: 40%;
   padding-top: 1rem;
   text-align: left;
   padding-left: 1rem;
@@ -28,7 +25,6 @@ body {
 .nav-container-list {
   display: flex;
   justify-content: space-around;
-  width: 60%;
 }
 
 .nav-container-list > li {
@@ -69,7 +65,6 @@ body {
     align-content: center;
   }
   .nav-container h3 {
-    width: auto;
     margin: 1.5rem 0rem;
   }
   .nav-container-list {
